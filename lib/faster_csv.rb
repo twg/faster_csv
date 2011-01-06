@@ -8,7 +8,7 @@
 # See FasterCSV for documentation.
 
 if RUBY_VERSION >= "1.9"
-  abort <<-VERSION_WARNING.gsub(/^\s+/, "")
+  warn <<-VERSION_WARNING.gsub(/^\s+/, "")
   Please switch to Ruby 1.9's standard CSV library.  It's FasterCSV plus
   support for Ruby 1.9's m17n encoding engine.
   VERSION_WARNING
